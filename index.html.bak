@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nadia academy</title>
+    <style>
+        body {
+            margin: 0;
+            display: block;
+        }
+
+        .box {
+            margin-left: auto;
+            margin-right: auto;
+            height: 1200px;
+            width: 1000px;
+        }
+
+        header {
+            height: 100px;
+            width: 1000px;
+            background-color:black
+        }
+
+        .logo {
+            height: 60px;
+            width: 160px;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+
+        .navText {
+            color: rgb(255, 255, 255);
+            padding: 6px;
+        }
+
+            width: 1000px;
+           background-color:  orange;
+        }
+
+        footer {
+            height: 250px;
+            width: 1000px;
+            background-color: black;
+        }
+
+        .footer {
+            height: 50px;
+            width: 1000px;
+            background-color:black;
+        }
+
+        .whiteTextColor {
+            color:blanchedalmond;
+        }
+
+        .tdspacing {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+        }
+
+        .hover td:hover {
+            background-color:khaki;
+            display: block;
+
+        }
+
+        h2 {
+  color:blue;
+  text-shadow: 1px 1px 2px rgb(98, 41, 116), 0 0 25px rgb(64, 64, 153), 0 0 5px rgb(79, 129, 196);
+}
+
+.fade {
+            opacity: 0.5;
+        }
+
+        .fade:hover {
+            opacity: 1;
+        }
+        #cf {
+            position: relative;
+            height: 281px;
+            width: 450px;
+            margin: 0 auto;
+        }
+
+        #cf img {
+            position: absolute;
+            left: 0;
+            -webkit-transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+        }
+
+        #cf img.top:hover {
+            opacity: 0;
+        }
+        marquee{
+            color: blueviolet;
+        }
+        section{
+            background-color:pink 
+        }
+    </style>
+	
+	
+</head>
+
+<body background="academy.jpg">
+    <div class="box card">
+        <header>
+            <img class="logo" src="academy logo.png" style="float:left;">
+        
+            <table border="0" style="padding-top: 35px; padding-left: 30%;" class="hover">
+                <tr>
+                    <td style="width: 115px; text-align: center;">
+                        
+                        <a href="index.html"> <p class="navText">HOME</p></a>   
+                    </td>
+                    <td style="width: 115px; text-align: center;">
+                        
+                        <a href="Gallery.html"> <p class="navText">GALLERY</p></a>
+                    </td>
+                    <td style="width: 115px; text-align: center;">
+                        <a href="Art Services.html"><p class="navText">SERVICES</p></a>
+                    </td>
+                    <td style="width: 115px; text-align: center;">
+                        <a href="ContactUs.html"><p class="navText">CONTACT US</p></a>
+                    </td>
+                   <td style="width: 115px; text-align: center;">
+                    <a href="Games.html"><p class="navText">Games</p></a>
+                </td>
+                <td style="width: 115px; text-align: center;">
+                    <a href="MathCalculator.html"><p class="navText">Calculate equations</p></a>
+                </tr>
+            </table>
+        </header>
+        <section>
+            <center>
+                <h2 style="margin-bottom: 2px;margin-top: 20px;">Better tomorrow  </h2>
+                <div style="width: 800px; height: 6px;background-color: rgb(192, 35, 35); margin-top: 10px;"></div>
+                
+	
+    
+    <marquee behavior="right" direction="">hi! this is my website about better tomorrow acadmey</marquee>
+	
+    
+                <table>
+                    <tr>
+                        <td class="tdspacing">
+                            <div style="height: 150px; width: 180px;background-color: honeydew;">
+                                <p style="text-align: center;padding-top: 8px;margin-bottom: 5px;">classroom 💛</p>
+                                <div id="cf">
+                                    <img 
+                                        src="c.jpg" height=135 width="180px" />
+                                    <img class="top"
+                                        src="l.jpg" width = 180px height= 135px;/>
+                            </div>
+                        </td>
+                    
+
+                    
+                        <td class="tdspacing">
+                            <div style="height: 150px; width: 180px;background-color: honeydew;">
+                                <p style="text-align: center;padding-top: 8px;margin-bottom: 5px;">students 😉</p>
+                                <div id="cf">
+                                    <img 
+                                        src="st.jpg" height=135 width="180px" />
+                                    <img class="top"
+                                        src="ud.jpg" width = 180px height= 135px;/>
+                            </div>
+                        </td>
+                   
+                        <td class="tdspacing">
+                            <div style="height: 150px; width: 180px;background-color: honeydew;">
+                                <p style="text-align: center;padding-top: 8px;margin-bottom: 5px;"> girls😁</p>
+                                <div id="cf">
+                                    <img 
+                                        src="en.jpg" height=135 width="180px" />
+                                    <img class="top"
+                                        src="ts.jpg" width = 180px height= 135px;/>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <h3>better tomorrow is my fav academy because it is the best and I love it so much!! 😃😊</h3>
+            </center>
+        </section>
+        <footer>
+
+            <table>
+                <tr>
+                    <th style="width:400px; text-align: left; padding-left: 30px; padding-top: 8px; padding-bottom: 0px;"
+                        class="whiteTextColor">
+                        <h4>More about website</h4>
+                    </th>
+
+                    <th style="width: 200px; text-align: left; padding-left: 30px; padding-top: 8px;padding-bottom: 0px;"
+                        class="whiteTextColor">
+                        <h4>website is Fun!!</h4>
+                    </th>
+
+                    <th style="width: 300px; text-align: left; padding-left: 30px; padding-top: 8px;padding-bottom: 0px;"
+                        class="whiteTextColor">
+                        <h4>website</h4>
+                    </th>
+
+                </tr>
+
+                <tr>
+                    <td valign="top">
+                        <p style="color:white; font-size: 14px; padding-left: 30px; font-size: 12px;">
+                            I love better tomorrow,  it is so much interesting to do! I am very good at it.  </p>
+
+                    </td>
+
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="instagram.png" height="40" width="40"
+                                    style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Instagram</p>
+                                    <a href="https://www.instagram.com/"></a>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="facebook.png" height="40" width="40"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Facebook</p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="youtube.png" height="40" width="40"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Youtube</p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="snapchat.png" height="40" width="40"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">Follow on Snapchat</p>
+                                </td>
+                            </tr>
+
+
+
+
+
+
+                        </table>
+                    </td>
+
+                    <td valign="top">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="phone.png" height="25" width="25" style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">123456789</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="location.png" height="25" width="25"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">lahore , pakistan</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="webiste.png" height="25" width="25"
+                                        style="float:left; padding-right: 5px;">
+                                </td>
+                                <td>
+                                    <p class="whiteTextColor" style="line-height: 2px;">www.nadia's better tomorrow.com</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+
+
+                <!-- <td style="position: relative; width: 300px; padding-left: 35px;">
+                        <p style="color:white; font-size: 20px;">Keep Connected</p>
+                
+                        <img src="instagram.png" height="50" width="50">
+                        <p class="whiteTextColor">Follow on Instagram</p>
+                    
+                </td> -->
+
+            </table>
+        </footer>
+        <div class="footer" style="color: white; text-align: center; line-height: 50px;"> 
+            Fine better tomorrow Made By nadia  </div>
+    </div>
+
+</body>
+</html>
